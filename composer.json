@@ -1,0 +1,22 @@
+{
+    "name": "saitho/short-german-names",
+    "require": {
+        "php": "^7.0||^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.0",
+        "phpstan/phpstan": "^2.0",
+        "squizlabs/php_codesniffer": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Saitho\\ShortGermanNames\\": "src/"
+        }
+    },
+    "scripts": {
+        "phpunit": "phpunit",
+        "phpstan": "phpstan",
+        "phpcs": "phpcs",
+        "phpcbf": "phpcbf"
+    }
+}
